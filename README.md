@@ -22,7 +22,9 @@ Each day includes a comprehensive `RECAP.md` file that explains:
 ### Solutions
 
 - **[Day 1: Secret Entrance](./day_1/RECAP.md)** ✅
-  - File I/O with error handling
+  - Part 1: [RECAP.md](./day_1/RECAP.md) - Count zeros at end of rotation
+  - Part 2: [RECAP2.md](./day_1/RECAP2.md) - Count zeros during rotation
+  - File I/O with error handling, tuple return types, step-by-step simulation
 - **[Day 2: TBD](./day_2/)** 🚧
   - Coming soon...
 
@@ -49,9 +51,10 @@ Each recap document provides detailed explanations suitable for Rust learners.
 aoc/
 ├── day_1/
 │   ├── src/
-│   │   └── main.rs      # Solution code
+│   │   └── main.rs      # Solution code (Part 1 & 2)
 │   ├── input.txt        # Puzzle input
-│   ├── RECAP.md         # Detailed explanation
+│   ├── RECAP.md         # Part 1 detailed explanation
+│   ├── RECAP2.md        # Part 2 detailed explanation
 │   └── Cargo.toml       # Project configuration
 ├── day_2/
 │   └── ...
